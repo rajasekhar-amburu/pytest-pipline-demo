@@ -12,3 +12,7 @@ def multiplication(x, y):
 
 def division(x, y):
     return x / y
+
+
+def remainder(x, y):
+    return x % y
