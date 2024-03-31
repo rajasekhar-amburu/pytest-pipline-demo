@@ -6,10 +6,12 @@ Go to localhost:8080 and enter the password
 Enter the 'docker ps' to see what containers are running - Copy the container id
 Connect to the container bash using the container id.
 > docker exec -it -u 0 dcbcc31e91c2 /bin/bash
-root@dcbcc31e91c2:/# apt-get update
-root@dcbcc31e91c2:/# apt-get install python3
-root@dcbcc31e91c2:/# apt-get install python3-pip
-root@dcbcc31e91c2:/# apt install python3-pytest
+
+1. root@dcbcc31e91c2:/# apt-get update
+2. root@dcbcc31e91c2:/# apt-get install python3
+3. root@dcbcc31e91c2:/# apt-get install python3-pip
+4. root@dcbcc31e91c2:/# apt install python3-pytest
+
 
 You can do the git configs as below
 1. Create a git repo
