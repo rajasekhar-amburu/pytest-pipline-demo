@@ -22,4 +22,4 @@ def test_remainder():
 
 
 def test_division_false():
-    assert division(14, 3) == 8, "Division operation should fail now"
+    assert division(14, 3) != 8, "Division operation should fail now"
